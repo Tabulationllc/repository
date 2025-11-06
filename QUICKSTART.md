@@ -20,7 +20,7 @@ python -c "from app import app, db; app.app_context().push(); db.create_all()"
 python app.py
 ```
 
-Backend will run on http://localhost:5000
+Backend will run on http://localhost:6000
 
 ## Step 2: Set Up Frontend (2 minutes)
 
@@ -37,11 +37,11 @@ npm install
 npm start
 ```
 
-Frontend will open at http://localhost:3000
+Frontend will open at http://localhost:7000
 
 ## Step 3: Find Your First Leads (1 minute)
 
-1. Open http://localhost:3000 in your browser
+1. Open http://localhost:7000 in your browser
 2. Click "Find Leads" in the navigation
 3. Enter search term: "IMPLAN economic impact"
 4. Click "Search for Leads"

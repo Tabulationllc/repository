@@ -82,7 +82,7 @@ python -c "from app import app, db; app.app_context().push(); db.create_all()"
 python app.py
 ```
 
-The backend will run on `http://localhost:5000`
+The backend will run on `http://localhost:6000`
 
 ### Frontend Setup
 
@@ -101,7 +101,7 @@ npm install
 npm start
 ```
 
-The frontend will run on `http://localhost:3000`
+The frontend will run on `http://localhost:7000`
 
 ## Setting Up Integrations
 

@@ -14,8 +14,8 @@ fi
 echo ""
 echo "✓ Frontend setup complete!"
 echo ""
-echo "Starting React app on http://localhost:3000"
+echo "Starting React app on http://localhost:7000"
 echo ""
 
-# Start the React app
-npm start
+# Start the React app on port 7000
+PORT=7000 npm start

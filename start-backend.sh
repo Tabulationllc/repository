@@ -29,7 +29,7 @@ python3 -c "from app import app, db; app.app_context().push(); db.create_all()"
 echo ""
 echo "✓ Backend setup complete!"
 echo ""
-echo "Starting Flask server on http://localhost:5000"
+echo "Starting Flask server on http://localhost:6000"
 echo ""
 
 # Run the app
